@@ -133,7 +133,7 @@ const batches = (recipe, available) =>
   );
 ```
 
-#### 很高兴停到
+#### 很高兴听到
 
 ##### 附加链接
 
@@ -232,7 +232,7 @@ const permutations = arr => {
 
 只需向阵列添加 1 个，执行时间就会非常快地增加。
 
-#### 很高兴停到
+#### 很高兴听到
 
 * 警惕嵌套循环，因为执行时间呈指数增长。
 
@@ -314,7 +314,6 @@ async function asyncAwaitVersion() {
 * 使用控制流库，例如 async
 * 与 Promise 一起使用生成器
 * 使用 async/await（从v7开始）
-</details>
 
 #### 很高兴听到
 
@@ -324,6 +323,9 @@ async function asyncAwaitVersion() {
 
 * [Avoiding Callback Hell in Node.js](http://stackabuse.com/avoiding-callback-hell-in-node-js/)
 * [Asynchronous JavaScript: From Callback Hell to Async and Await](https://blog.hellojs.org/asynchronous-javascript-from-callback-hell-to-async-and-await-9b9ceb63c8e8)
+
+</details>
+
 
 
 <br>[⬆ 回到顶部](#目录)
@@ -350,7 +352,6 @@ setState({ name: "sudheer" }, () => {
 * [React docs on setState](https://reactjs.org/docs/react-component.html#setstate)
 
 </details>
-
 
 
 
@@ -395,6 +396,7 @@ class MyComponent extends Component {
 * [React docs on Refs and the DOM](https://reactjs.org/docs/refs-and-the-dom.html#exposing-dom-refs-to-parent-components)
 
 </details>
+
 
 
 <br>[⬆ 回到顶部](#目录)
@@ -478,6 +480,7 @@ function App() {
 </details>
 
 
+
 <br>[⬆ 回到顶部](#目录)
 ### 如何在 JavaScript 中克隆一个对象？
 
@@ -517,6 +520,7 @@ const shallowClone = { ...obj }
 </details>
 
 
+
 <br>[⬆ 回到顶部](#目录)
 ### 什么是闭包？请举一个例子？
 
@@ -550,8 +554,8 @@ const shallowClone = { ...obj }
 * [What is a closure](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36)
 * [I never understood JavaScript closures](https://medium.com/dailyjs/i-never-understood-javascript-closures-9663703368e8)
 
-
 </details>
+
 
 
 <br>[⬆ 回到顶部](#目录)
@@ -623,6 +627,7 @@ function isDeepEqual(obj1, obj2, testPrototypes = false) {
 </details>
 
 
+
 <br>[⬆ 回到顶部](#目录)
 ### 什么是 context？
 
@@ -646,6 +651,7 @@ const { Provider, Consumer } = React.createContext(defaultValue)
 * [React docs on Context](https://reactjs.org/docs/context.html)
 
 </details>
+
 
 
 <br>[⬆ 回到顶部](#目录)
@@ -699,6 +705,7 @@ DOM（文档对象模型）是一种跨平台的 API，它将 HTML 和 XML 文�
 </details>
 
 
+
 <br>[⬆ 回到顶部](#目录)
 ### 运算符 `==` 和 `===` 有什么区别？
 
@@ -719,6 +726,7 @@ DOM（文档对象模型）是一种跨平台的 API，它将 HTML 和 XML 文�
 * [MDN docs for comparison operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
 
 </details>
+
 
 
 <br>[⬆ 回到顶部](#目录)
@@ -800,6 +808,7 @@ document.addEventListener("click", e => {
 </details>
 
 
+
 <br>[⬆ 回到顶部](#目录)
 ### 什么是事件驱动编程？
 
@@ -846,6 +855,7 @@ hub.emit("message", {
 * [Understanding Node.js event-driven architecture](https://medium.freecodecamp.org/understanding-node-js-event-driven-architecture-223292fcbc2d)
 
 </details>
+
 
 
 <br>[⬆ 回到顶部](#目录)
@@ -926,6 +936,7 @@ var x = y >= 0 ? y : -y
 * [What is the difference between a statement and an expression?](https://stackoverflow.com/questions/12703214/javascript-difference-between-a-statement-and-an-expression)
 
 </details>
+
 
 
 <br>[⬆ 回到顶部](#目录)
